@@ -1197,6 +1197,12 @@
             </modules>
         </profile>
         <profile>
+            <id>dashboard</id>
+            <modules>
+                <module>tooling/monitoring-dashboard</module>
+            </modules>
+        </profile>
+        <profile>
             <id>default</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
