@@ -42,6 +42,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -71,6 +72,7 @@ public class CAppDeploymentManager {
 
         if (cAppDir.isDirectory()) {
             File[] fileList = cAppDir.listFiles();
+            Arrays.sort(fileList);
             if (fileList != null && fileList.length > 0) {
                 for (File file : fileList) {
                     if (!isCAppArchiveFile(file.getName())) {
