@@ -24,7 +24,7 @@ public abstract class DataServiceBaseTestCase extends TestCase {
 	
 	protected String repository = "./target/repository";
 	protected String axis2Conf = "./src/test/resources/axis2.xml";
-	protected String baseEpr = "http://localhost:5555/axis2/services/";
+	protected String baseEpr = "http://localhost:5566/axis2/services/";
        protected String carbonHome = "./target/carbonHome";
 
 	public DataServiceBaseTestCase(String testName) {
