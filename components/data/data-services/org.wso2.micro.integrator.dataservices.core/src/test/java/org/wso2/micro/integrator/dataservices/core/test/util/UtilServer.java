@@ -42,7 +42,7 @@ public class UtilServer {
 
     private static SimpleHTTPServer receiver;
 
-    public static final int TESTING_PORT = 5555;
+    public static final int TESTING_PORT = 5566;
 
     public static final String FAILURE_MESSAGE = "Intentional Failure";
 
